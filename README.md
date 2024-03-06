@@ -43,8 +43,7 @@ docker build -t my-ubuntu-with-docker .
 
 To run a container from the newly built image with Docker capabilities, use the command:
 ```sh
-docker run -it --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock 
-my-ubuntu-with-docker
+docker run -it --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock my-ubuntu-with-docker
 ```
 This command mounts the host's Docker socket into the container, allowing you to execute Docker commands inside the container.
 
