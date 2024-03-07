@@ -70,7 +70,7 @@ Data changes within containers can be persisted across container restarts and ev
 ```sh
 docker run -it --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v my-volume:/path/in/container my-ubuntu-with-docker
 ```    
-    Replace `/path/in/container` with the actual path where you want the volume to be mounted inside the container.
+Replace `/path/in/container` with the actual path where you want the volume to be mounted inside the container.
 
 3. **Save Data to the Volume**
 
