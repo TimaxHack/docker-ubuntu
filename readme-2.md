@@ -2,15 +2,15 @@
 
 ### Установка докера
 ```
-sudo apt install -y git curl docker.io docker-compose
+apt install -y git curl docker.io docker-compose
 ```
 ### Добавление группы докера
 ```
-sudo groupadd docker
+groupadd docker
 ```
 ### Обозначить мод пользователя
 ```
-sudo usermod -aG docker $(whoami)
+usermod -aG docker $(whoami)
 ```
 
 ## Устнановка nvm и node
